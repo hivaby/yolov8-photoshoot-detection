@@ -1,0 +1,12 @@
+names:
+- photoshoot
+nc: 1
+roboflow:
+  license: Public Domain
+  project: detecting-photoshoot
+  url: https://universe.roboflow.com/markany/detecting-photoshoot/dataset/22
+  version: 22
+  workspace: markany
+test: ../test/images
+train: detecting-photoshoot-22/train/images
+val: detecting-photoshoot-22/valid/images
